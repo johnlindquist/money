@@ -15,5 +15,7 @@ package
         function remove():void;
         function watch(callback:Function, ...rest):void;
         function mediate(type:Class):DisplayObjectContainer;
+        function mapCommand():void;
+        function dispatch(eventName:String, ...rest):void;
     }
 }

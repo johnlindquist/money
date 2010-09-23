@@ -1,0 +1,10 @@
+public function $$$inject(string:String, value):void
+{
+    try
+    {
+        this[string] = value;
+    }
+    catch(e:Error)
+    {
+    }
+}
